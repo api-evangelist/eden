@@ -1,9 +1,26 @@
 aid: eden
 name: Eden
-description: 'Eden is a company surfaced as a portfolio company of sierra-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: digital-health. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Eden is a Latin American healthcare technology company providing cloud-based medical
+  imaging and radiology software for hospitals, clinics, and diagnostic centers. Its platform
+  includes Eden PACS (a cloud picture archiving and communication system and DICOM viewer), Eden
+  Management (scheduling, referral, and operational workflow tools), Eden Intelligence (data-driven
+  analytics for medical institutions), and Eden Creator (an AI assistant for drafting diagnostic
+  impressions). Eden is backed by Sierra Ventures and serves medical institutions across Latin
+  America. No public developer API, documentation, or well-known discovery surface was found during
+  enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/eden/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/64778885f71ce3a07213e092/64778885f71ce3a07213e099_vector.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +29,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Digital Health
+- Medical Imaging
+- Radiology
+- PACS
+- RIS
+- Healthcare
+- Diagnostics
+- Latin America
+- Cloud
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/eden-domain-security.yml
 - type: Website
   url: https://edenmed.com/
+- type: Blog
+  url: https://www.edenmed.com/blog
+- type: PrivacyPolicy
+  url: https://www.edenmed.com/aviso-de-privacidad-integral
+- type: TermsOfService
+  url: https://legal.edenmed.com/
+- type: Login
+  url: https://apps.evacenter.com/login
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
