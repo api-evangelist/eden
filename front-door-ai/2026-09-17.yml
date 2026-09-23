@@ -1,0 +1,30 @@
+# Front Door AI Index — eden — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: eden
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: edenmed.com
+  final_host: edenmed.com
+  ownership: own
+  owner: eden
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 16
+  host_score: 16
+  density: 16.39
+  words: 976
+  tiers:
+    agentic: 0
+    core: 16
+    model: 0
+  ambiguous: 4
+  top_terms:
+    AI: 11
+    intelligence: 4
+    artificial intelligence: 2
+    deep learning: 1
+    large language model: 1
+    neural network: 1
